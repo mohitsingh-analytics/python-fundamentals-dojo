@@ -50,4 +50,12 @@ def get_customer_location():
 # your code here
 customer_id, (lat,long) = get_customer_location()
 print(f"customer id is {customer_id}, with lat as {lat} and long as {long})")
- 
+
+
+balances = {
+    "C001":"123123",
+    "C002": "123124"
+}
+
+balance = balances.get("C001")
+print(balance)
